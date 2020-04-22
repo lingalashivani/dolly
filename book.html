@@ -1,0 +1,144 @@
+<html>
+<head>
+	<title>Login Page</title>
+   <!--Made with love by Mutiullah Samim -->
+    <style>
+.container{
+       background-size: 100%
+       width:40%;
+       background-color: #28856666;
+    }
+
+    .imagebox{
+        width:13vw;
+        height:35vh;
+        background-color:green;
+        display:inline-block;
+        margin-left:7%;
+        margin-bottom:5%;
+        color:white;
+    }
+    .searchbox{
+        width:80%;
+        height:50px;
+        margin-bottom:1%;
+        margin-top:1%;
+        margin-left:7%;
+
+    }
+  </style>
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!--Custom styles-->
+</head>
+<body>
+<div class="container-fluid padding bg-light">
+        <div class="row welcome text-center text-primary">
+            <div class="col-12">
+                <h1 class="display-4">Upcoming and Live Concerts</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+    
+    <!--- Cards -->
+    <div class="container-fluid padding bg-light">
+        <div class="row padding">
+            <div class="col-md-3">
+                <div class="card border-primary">
+                    <img class="card-img-top" src="https://www.irishtimes.com/polopoly_fs/1.4231883.1587152436!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" height="200">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">SUNBURN ARENA WITH DJ SNAKE</h4>
+						<b>When:</b> 21st, 22nd, 23rd & 24th June
+						<br>
+<b>Where:</b> Mumbai,Hyderabad.<br>
+                        <p class="card-text">DJ Snake is making his way back to India this March. If you’re in Mumbai, you’ll have the chance to have the most memorable Holi ever as you party it up with the Taki Taki hitmaker. He will also be making his way to three other cities so even more people will have a chance to see him.</p>
+                        <a href="/appliances" class="btn btn-info">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-primary">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSofWWGxyry5QaEOoV2BIbAZiqCmmCNZ5x47tzkfu4EL_AWdPwL&usqp=CAU" height="200">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">LAUV</h4>
+						<b>When:</b> 13 May
+						<br>
+<b>Where:</b> Mumbai.<br>
+                        <p class="card-text">The American singer will be making a stop at his Asia Tour. The American singer will be making a stop at Mumbai as a part of his Asia Tour. but he has also collaborated with many well-known artists such as DJ Snake (for A Different Way), Julia Michaels (for There’s No Way), and most recently with Troye Sivan (for I’m So Tired…).</p>
+                        <a href="/appliances" class="btn btn-info">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="card border-primary">
+                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUJ6V6uWo2jNNKtgpF8ospdjbqIagAZE50YjbJjFe6JhIsqEBC&usqp=CAU" height=200>
+                        <div class="card-body">
+                            <h4 class="card-title text-primary">Bollyboom@Home</h4>
+							<b>When:</b> Friday, April 17 to Sunday, April 19 at 8.30pm.
+						<br>
+                            <p class="card-text">Get your daily dose of Bollywood delivered by artists, folk artist Mame KhanGet your daily dose of Bollywood delivered by artists such as Punjabi singer Raftaar and Rajasthani folk artist Mame KhanGet your daily dose of Bollywood delivered by artists such as Punjabi singer Raftaar and Rajasthani folk artist Mame Khan. </p>
+                            <a href="/appliances" class="btn btn-info">book now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                        <div class="card border-primary">
+                            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFMXJ-N0SfOHABb-7NCJZfzNpOa_6Sx900voH7aSArfXsUj-kW&usqp=CAU" height="200">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary">One World Together At Home</h4>
+								<b>When:</b> Friday, April 17 to Sunday, April 19 at 8.30pm.
+                                <p class="card-text">The American singer will be making a stop at Mumbai as a part of his Asia Tour. He’s best known for his song I Like Me Better, but he has also collaborated with many well-known artists such as DJ Snake (for A Different Way), Julia Michaels (for There’s No Way), and most recently with Troye Sivan (for I’m So Tired…).</p>
+                                <a href="/appliances" class="btn btn-info">book now</a>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+     <hr size="10">
+     <marquee color="red" direction="right">Images of some concerts</marquee>
+     <hr size=20>
+    </div>
+    <div class="container" id="container">
+        <input type="text" class="searchbox" placeholder="Search Here" onkeyup="myfunction()" id="srchbox" /><br>
+        <div class="imagebox" name="box" style="background:url('https://tse4.mm.bing.net/th?id=OIP.fm1mIUn8lIIOTWjykEX0qgHaE7&pid=Api&P=0&w=236&h=158'); background-size:100% 100%; color:white;">Kitty SU</div>
+        <div class="imagebox" name="box" style="background:url('https://tse3.mm.bing.net/th?id=OIP.3vjuWKFYmTxPZzNgwOEioAHaEK&pid=Api&P=0&w=288&h=163'); background-size:100% 100%;color:white;">Edwards</div>
+        <div class="imagebox" name="box" style="background:url('http://i.dailymail.co.uk/i/pix/2018/01/27/08/489F9AAE00000578-5319067-image-a-1_1517040451302.jpg'); background-size:100% 100%;color:white; text-align:right;">Abhi Maisekhar</div>
+        <div class="imagebox" name="box" style="background:url('https://tse4.mm.bing.net/th?id=OIP.ZHHU05qPbQVji8cjGiV5UgHaE8&pid=Api&P=0&w=231&h=155'); background-size:100% 100%;color:white;">menon Joyes</div>
+        <div class="imagebox" name="box" style="background:url('https://tse4.mm.bing.net/th?id=OIP.lLB8DX53tCvwSlVzUjlI0AHaEq&pid=Api&P=0&w=255&h=162'); background-size:100% 100%; color:white;">Justin Beiber</div>
+        <div class="imagebox" name="box" style="background:url('https://tse4.mm.bing.net/th?id=OIP.n7ExTLNEbln_r8Rm2dyKywHaD1&pid=Api&P=0&w=351&h=182'); background-size:100% 100%;color:white;">Steven Adler</div>
+        <div class="imagebox" name="box" style="background:url('https://tse3.mm.bing.net/th?id=OIP.9VAXwB1Uw_g8qp6_Yj6Z_wHaC7&pid=Api&P=0&w=407&h=161'); background-size:100% 100%;color:white;">Duff Mckughan</div>
+        <div class="imagebox" name="box" style="background:url('https://tse2.mm.bing.net/th?id=OIP.8YD68C9vCSFWY_64kCvCuQHaEn&pid=Api&P=0&w=274&h=172'); background-size:100% 100%;color:white;">Jioharden</div>
+        <div class="imagebox" name="box" style="background:url('https://tse2.mm.bing.net/th?id=OIP.wpBwV6zDtVLTlppUB3iF7AHaE8&pid=Api&P=0&w=239&h=160'); background-size:100% 100%;color:white;">Pendulum</div>
+        <div class="imagebox" name="box" style="background:url('https://tse4.mm.bing.net/th?id=OIP.hTSzpMr-qoj69L3soz5N2wHaDM&pid=Api&P=0&w=393&h=170'); background-size:100% 100%;color:white;">Skrillen</div>
+        <div class="imagebox" name="box" style="background:url('https://tse1.mm.bing.net/th?id=OIP.fWeJIoPP08zVMGodFxlrIwHaEK&pid=Api&P=0&w=292&h=165'); background-size:100% 100%;color:white;">Izzy Stradlin</div>
+        <div class="imagebox" name="box" style="background:url(' https://tse2.mm.bing.net/th?id=OIP.Iw4ahtvQu2niq7KDSPkhrwHaEK&pid=Api&P=0&w=288&h=163'); background-size:100% 100%;color:white;">Micky SLim</div>
+    </div>
+<script>
+       function myfunction()
+         {
+             var container, searchbox,textinbox, imagebox;
+             container = document.getElementById("container");
+             searchbox = container.getElementsByTagName("input");
+             textinbox = searchbox[0].value.toUpperCase();
+             imagebox = container.getElementsByTagName("div");
+             for(i = 0; i < imagebox.length ; i++)
+             {
+                 textonimage = imagebox[i].textContent || imagebox[i].innerText;
+                 if(textonimage.toUpperCase().indexOf(textinbox) > -1)
+                 {
+                     imagebox[i].style.display = "";
+                 }
+                 else
+                 {
+                     imagebox[i].style.display = "none";
+                 }
+                 
+             }
+         }
+</script>                     
+</body>
+</html>	  
